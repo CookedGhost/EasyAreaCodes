@@ -16,3 +16,9 @@ mybatis-plus:
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
   config-location: classpath:mapper/*.xml
+
+#开启swagger3调试
+springfox:
+  documentation:
+    swagger-ui:
+      enabled: true
