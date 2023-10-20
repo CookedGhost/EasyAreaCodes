@@ -10,6 +10,10 @@ spring:
     url: jdbc:mysql://localhost:3306/eac?useUnicode=true&characterEncoding=utf8&useSSL=true&serverTimezone=UTC
     username: root
     password: 123456
+  jpa:
+    hibernate:
+      ddl-auto: update #自动更新
+    show-sql: true #日志显示sql语句
 
 
 mybatis-plus:
